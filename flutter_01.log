@@ -1,0 +1,48 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://localhost:42271/devtools/page/D4DBD8FCFE832DCA420D0D8F2852679E
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, 1.26.0-2.0.pre.137, on Linux, locale en_GB.UTF-8)
+    • Flutter version 1.26.0-2.0.pre.137 at /home/arv/snap/flutter/common/flutter
+    • Framework revision 8f5d0371af (6 hours ago), 2020-12-26 11:07:36 +0330
+    • Engine revision f5364860ab
+    • Dart version 2.12.0 (build 2.12.0-179.0.dev)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.0)
+    • Android SDK at /home/arv/Android/Sdk
+    • Platform android-30, build-tools 30.0.0
+    • Java binary at: /home/arv/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Android Studio (version 4.0)
+    • Android Studio at /home/arv/android-studio
+    • Flutter plugin version 50.0.1
+    • Dart plugin version 193.7547
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+
+[✓] VS Code (version 1.52.1)
+    • VS Code at /usr/share/code
+    • Flutter extension version 3.18.0
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 87.0.4280.88
+
+• No issues found!
+```

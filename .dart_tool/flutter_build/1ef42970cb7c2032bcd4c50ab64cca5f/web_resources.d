@@ -1,0 +1,1 @@
+ build/web/manifest.json build/web/index.html:  /home/arv/FlutterProjects/Akshat-Raj-Vansh.github.io/web/manifest.json /home/arv/FlutterProjects/Akshat-Raj-Vansh.github.io/web/index.html
