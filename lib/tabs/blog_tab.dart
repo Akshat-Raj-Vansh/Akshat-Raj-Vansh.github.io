@@ -100,7 +100,7 @@ class _BlogTabState extends State<BlogTab> {
               ),
               elevation: 0.0,
               onPressed: () =>
-                  html.window.open(Constants.PROFILE_MEDIUM, 'adityadroid'),
+                  html.window.open(Constants.PROFILE_MEDIUM, 'akshatrajvansh'),
             )
           ],
         ),
