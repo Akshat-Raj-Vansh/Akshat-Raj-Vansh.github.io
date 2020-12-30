@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class Adityadroid extends StatelessWidget {
   const Adityadroid({
     Key key,
@@ -24,8 +25,10 @@ class Adityadroid extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Aditya Gurjar',
-      theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context),
+      title: 'Akshat Raj Vansh',
+      theme: ThemeSwitcher.of(context).isDarkModeOn
+          ? darkTheme(context)
+          : lightTheme(context),
       home: HomePage(),
     );
   }

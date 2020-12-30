@@ -23,7 +23,7 @@ class AboutTab extends StatelessWidget {
                 height: 20,
               ),
               Text(
-                'Aditya Gurjar',
+                'Akshat Raj Vansh',
                 textScaleFactor: 4,
               ),
               SizedBox(
