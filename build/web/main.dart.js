@@ -31628,7 +31628,7 @@ g.b6=f.h(a,"type")
 return g},
 $S:109}
 K.wb.prototype={
-G:function(a,b){var s=null,r=U.iO("assets/avatar.jpg",s,s),q=T.cW(s,20,s),p=L.df("Akshat Raj Vansh",s,s,4),o=T.cW(s,20,s),n=L.df("Android. Flutter. Cricket. Music.\nLikes Traveling.",K.au(b).a0.Q,C.h9,2),m=T.cW(s,40,s),l=N.tV(T.cW(U.iO("assets/github.png",s,s),20,20),L.df("Github",s,s,s),new K.IN()),k=N.tV(T.cW(U.iO("assets/twitter.png",s,s),20,20),L.df("Twitter",s,s,s),new K.IO()),j=t._
+G:function(a,b){var s=null,r=U.iO("assets/avatar.jpg",s,s),q=T.cW(s,20,s),p=L.df("Akshat Raj Vansh",s,s,4),o=T.cW(s,20,s),n=L.df("Android. Flutter. Cricket. Music.\nLikes Gaming.",K.au(b).a0.Q,C.h9,2),m=T.cW(s,40,s),l=N.tV(T.cW(U.iO("assets/github.png",s,s),20,20),L.df("Github",s,s,s),new K.IN()),k=N.tV(T.cW(U.iO("assets/twitter.png",s,s),20,20),L.df("Twitter",s,s,s),new K.IO()),j=t._
 return E.a67(T.lP(new T.dP(C.p8,T.x9(H.c([new K.wZ(r.c,100,s),q,p,o,n,m,T.mZ(H.c([l,k,N.tV(T.cW(U.iO(t.e9.a(b.pE(C.kW)).f.d?"assets/medium.png":"assets/medium_light.png",s,s),20,20),L.df("Medium",s,s,s),new K.IP())],j),C.b1,C.mF,C.fF),T.mZ(H.c([N.tV(T.cW(U.iO("assets/instagram.png",s,s),20,20),L.df("Instagram",s,s,s),new K.IQ()),N.tV(T.cW(U.iO("assets/facebook.png",s,s),20,20),L.df("Facebook",s,s,s),new K.IR()),N.tV(T.cW(U.iO("assets/linkedin.png",s,s),20,20),L.df("Linkedin",s,s,s),new K.IS())],j),C.b1,C.mF,C.fF)],j),C.b1,C.bD,C.fF),s),s,s))}}
 K.IN.prototype={
 $0:function(){return C.a0.fW(window,"https://github.com/adityadroid/","adityadroid")},
