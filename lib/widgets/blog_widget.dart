@@ -12,8 +12,8 @@ class BlogWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     double topBottomPadding = (index == 0 || index == length - 1) ? 16.0 : 8.0;
     return InkWell(
-      onTap: () =>
-          html.window.open(Constants.BLOG_URL + blog.uniqueSlug, 'adityadroid'),
+      onTap: () => html.window
+          .open(Constants.BLOG_URL + blog.uniqueSlug, 'akshatrajvansh'),
       child: Card(
         margin:
             EdgeInsets.fromLTRB(16.0, topBottomPadding, 16.0, topBottomPadding),

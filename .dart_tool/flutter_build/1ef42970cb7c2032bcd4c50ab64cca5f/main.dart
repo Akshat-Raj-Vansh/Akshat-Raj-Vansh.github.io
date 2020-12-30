@@ -2,7 +2,7 @@
 
 import 'dart:ui' as ui;
 
-import 'package:adityagurjar/main.dart' as entrypoint;
+import 'package:akshatrajvansh/main.dart' as entrypoint;
 
 Future<void> main() async {
   await ui.webOnlyInitializePlatform();

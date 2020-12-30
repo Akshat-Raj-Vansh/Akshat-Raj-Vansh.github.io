@@ -63,6 +63,7 @@ class ProjectWidget extends StatelessWidget {
   }
 
   void onProjectClick() {
-    if (_project.link != null) html.window.open(_project.link, 'adityadroid');
+    if (_project.link != null)
+      html.window.open(_project.link, 'akshatrajvansh');
   }
 }
