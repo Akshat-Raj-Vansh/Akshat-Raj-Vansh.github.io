@@ -49,7 +49,7 @@ class AboutTab extends StatelessWidget {
                         child: Image.asset(Assets.github)),
                     label: Text('Github'),
                     onPressed: () => html.window
-                        .open(Constants.PROFILE_GITHUB, 'akshat-raj-vansh'),
+                        .open(Constants.PROFILE_GITHUB, 'akshatrajvansh'),
                   ),
                   FlatButton.icon(
                     icon: SizedBox(
