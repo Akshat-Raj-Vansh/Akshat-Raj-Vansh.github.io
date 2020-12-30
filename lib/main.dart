@@ -1,5 +1,5 @@
-import 'package:akshatrajvansh/pages/home_page.dart';
-import 'package:akshatrajvansh/widgets/theme_inherited_widget.dart';
+import 'package:adityagurjar/pages/home_page.dart';
+import 'package:adityagurjar/widgets/theme_inherited_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'config/themes.dart';
@@ -10,14 +10,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ThemeSwitcherWidget(
-      initialDarkModeOn: true,
-      child: Portfolio(),
+      initialDarkModeOn: false,
+      child: Adityadroid(),
     );
   }
 }
-
-class Portfolio extends StatelessWidget {
-  const Portfolio({
+class Adityadroid extends StatelessWidget {
+  const Adityadroid({
     Key key,
   }) : super(key: key);
 
@@ -25,10 +24,8 @@ class Portfolio extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Akshat Raj Vansh',
-      theme: ThemeSwitcher.of(context).isDarkModeOn
-          ? darkTheme(context)
-          : lightTheme(context),
+      title: 'Aditya Gurjar',
+      theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context),
       home: HomePage(),
     );
   }
