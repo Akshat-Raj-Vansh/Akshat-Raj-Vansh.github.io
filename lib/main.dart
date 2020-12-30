@@ -10,14 +10,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ThemeSwitcherWidget(
-      initialDarkModeOn: false,
-      child: Adityadroid(),
+      initialDarkModeOn: true,
+      child: Portfolio(),
     );
   }
 }
 
-class Adityadroid extends StatelessWidget {
-  const Adityadroid({
+class Portfolio extends StatelessWidget {
+  const Portfolio({
     Key key,
   }) : super(key: key);
 
@@ -25,7 +25,7 @@ class Adityadroid extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Aditya Gurjar',
+      title: 'Akshat Raj Vansh',
       theme: ThemeSwitcher.of(context).isDarkModeOn
           ? darkTheme(context)
           : lightTheme(context),
