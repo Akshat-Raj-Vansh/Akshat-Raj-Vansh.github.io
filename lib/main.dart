@@ -1,5 +1,5 @@
-import 'package:adityagurjar/pages/home_page.dart';
-import 'package:adityagurjar/widgets/theme_inherited_widget.dart';
+import 'package:akshatrajvansh/pages/home_page.dart';
+import 'package:akshatrajvansh/widgets/theme_inherited_widget.dart';
 import 'package:flutter/material.dart';
 
 import 'config/themes.dart';
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 class Adityadroid extends StatelessWidget {
   const Adityadroid({
     Key key,
@@ -25,7 +26,9 @@ class Adityadroid extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Aditya Gurjar',
-      theme:ThemeSwitcher.of(context).isDarkModeOn?darkTheme(context):lightTheme(context),
+      theme: ThemeSwitcher.of(context).isDarkModeOn
+          ? darkTheme(context)
+          : lightTheme(context),
       home: HomePage(),
     );
   }

@@ -1,5 +1,5 @@
-import 'package:adityagurjar/config/assets.dart';
-import 'package:adityagurjar/config/constants.dart';
+import 'package:akshatrajvansh/config/assets.dart';
+import 'package:akshatrajvansh/config/constants.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
